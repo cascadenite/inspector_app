@@ -2,7 +2,7 @@
 
 A mobile app that uses ssd mobilenet model trained in Tensorflow Objection Detection API to detect cracks and peeling paint in houses.
 
-## Training
+## Training data 
 
 The model used was a ssd_mobilenet_v3 pre-trained on COCO dataset.  Fine-tuning was then done on a bespoke dataset of images taken around my house and crawled from google image search.  For example:
 
@@ -17,4 +17,16 @@ https://github.com/tzutalin/labelImg
 then the xml files were converted into csv format and finally made into TFrecords.
 
 The image processing is in the processImages.ipynb Jupyter notebook.
+
+## Training the model
+
+The fine-tuning of the model was performed using tensorflow Object Detection API and monitored on Tensorboard.  Once validation performance plateaued (as measured by mAP) the model was saved and then quanitised using TFlite.
+
+The model is InspectorDetect.tflite
+
+## The App
+
+The iOS app is bootstrapped from the tensorflow deeplearning.ai example. Chnages were made to the modelinference funtion and the layout of the app.  It was tested on a iphone x in a live walk around.
+
+
 
