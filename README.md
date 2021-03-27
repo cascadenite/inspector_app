@@ -6,4 +6,6 @@ A mobile app that uses ssd mobilenet model trained in Tensorflow Objection Detec
 
 The model used was a ssd_mobilenet_v3 pre-trained on COCO dataset.  Fine-tuning was then done on a bespoke dataset of images taken around my house and crawled from google image search.  For example:
 
-![img1](wallcrackIMG_1473.png)
+![img1](paintCrackIMG_1490.png) 
+
+![img1](toSortIMG_1585.png) 
