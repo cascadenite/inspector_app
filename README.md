@@ -48,7 +48,7 @@ static let modelInfo: FileInfo = (name: "InspectorDetect", extension: "tflite")
 
 ## Acknowledgements
 
-Use of transfer learning to train an object detection modelin TF with own data:
+Use of transfer learning to train an object detection model in TF with own data:
 
 https://medium.com/analytics-vidhya/training-an-object-detection-model-with-tensorflow-api-using-google-colab-4f9a688d5e8b
 
