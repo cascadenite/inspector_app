@@ -26,7 +26,7 @@ The model is InspectorDetect.tflite
 
 ## The App
 
-The iOS app is bootstrapped from the tensorflow deeplearning.ai example. Chnages were made to the modelinference funtion and the layout of the app.  It was tested on a iphone x in a live walk around.
+The iOS app is bootstrapped from the tensorflow deeplearning.ai example. Changes were made to the model inference funtion and the layout of the app.  It was tested on an iphone x in a live walk around.
 
 ![img1](inspector.jpg) 
 
